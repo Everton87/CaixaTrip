@@ -1,0 +1,46 @@
+/* ======== ESTILOS GERAIS ======== */
+:root {
+    /* cores */
+    --cor-azulclaro: #d0e0e3;
+    --cor-azulescuro: #005ca9;
+    --cor-branco: white;
+    --cor-laranja: #fa6702;
+    --cor-background: #f5f5f5;
+
+    /* fontes */
+    --font-roboto: "Roboto", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--cor-background);
+}
+
+/* ======== LAYOUT PRINCIPAL ======== */
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container-cidades {
+    padding: 20px 20px;
+}
+
+.section-titulo {
+    color: var(--cor-azulescuro);
+    font-size: 30px;
+}
+
+ @media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        order: -1;
+    }
+ }

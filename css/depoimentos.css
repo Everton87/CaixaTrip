@@ -1,0 +1,63 @@
+/* ======== DEPOIMENTOS (FLEXBOX) ======== */
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 5px;
+}
+
+.depoimentos-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.depoimento {
+    flex: 1;
+    min-width: 250px;
+    background: var(--cor-branco);
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-depoimento {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-depoimento-img img {
+    height: 100px;
+}
+
+.footer-depoimento-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dp-texto {
+    font-size: 20px;
+    font-style: italic;
+    font-family: var(--font-montserrat);
+    color: var(--cor-azulescuro);
+}
+
+.nome-cliente {
+    font-size: 18px;
+    font-family: var(--font-roboto);
+    color: var(--cor-laranja);
+}
+
+.stars {
+    font-size: 24px;
+    color: gold;
+}
