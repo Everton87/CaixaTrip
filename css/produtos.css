@@ -33,6 +33,12 @@
     color: var(--cor-azulescuro);
 }
 
+.produto-descricao-destaque {
+    font-family: var(--font-montserrat);
+    color: var(--cor-azulescuro);
+    font-weight: bold;
+}
+
 @media (max-width: 768px) {
     .produtos {
         display: flex;
