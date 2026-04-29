@@ -17,6 +17,14 @@
     border: 1px solid var(--cor-laranja);
 }
 
+.produto-cidades {
+    background: var(--cor-branco);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
 .produto img {
     width: 100%;
     border-radius: 6px;
